@@ -2,7 +2,7 @@
 
 Comandos gerais
 
-``
+``sh
 
 
     rustc -> cli do rust e compilador
