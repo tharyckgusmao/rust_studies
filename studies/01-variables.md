@@ -32,9 +32,9 @@ Shadowing quando declaramos um nova variavel com o mesmo nome de uma variavel pr
 ```rs
     let x = 5;
 
-    let x = x + 1;
+    let x = x + 1; //Shadowing
 
-    let x = x * 2;
+    let x = x * 2; //Shadowing
 
     println!("O valor de x é: {}", x);
 

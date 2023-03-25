@@ -9,3 +9,6 @@ fn main(){
 }
 
 ```
+
+
+Toda função inicia-se com `fn` na sua definição
