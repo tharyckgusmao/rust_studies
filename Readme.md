@@ -21,7 +21,6 @@ Comandos gerais
     cargo update -> atualiza as dependecias compativeis
     cargo doc --open -> constroi localmente a documentação e funcionalidades expostas pelos crate
 
+    crate -> pacote de codigo RUST
 
 ``
-
-    crate -> pacore de codigo RUST
