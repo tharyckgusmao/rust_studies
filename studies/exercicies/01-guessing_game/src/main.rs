@@ -2,6 +2,7 @@ extern crate rand;
 use rand::Rng;
 use std::cmp::Ordering; // Ordering enum igual a Result com variantes Less, Greater e Equal
 use std::io; // ::Rng trait que defini metodos para serem implementados pelos geradores
+
 fn main() {
     println!("Adivinhe o número");
 
