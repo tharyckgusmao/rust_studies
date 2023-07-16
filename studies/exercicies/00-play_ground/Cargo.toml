@@ -2,7 +2,6 @@
 name = "play_ground"
 version = "0.1.0"
 edition = "2021"
-authr = ["Tharyck"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
