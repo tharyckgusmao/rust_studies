@@ -1,0 +1,37 @@
+Arguments: 
+  /home/tharyckgusmao/.nvm/versions/node/v16.19.1/bin/node /home/tharyckgusmao/.nvm/versions/node/v16.19.1/bin/yarn workspace test run publish
+
+PATH: 
+  /home/tharyckgusmao/.fly/bin:/home/tharyckgusmao/.rbenv/shims:/home/tharyckgusmao/.rbenv/bin:/home/tharyckgusmao/.poetry/bin:/home/tharyckgusmao/.fly/bin:/home/tharyckgusmao/.rbenv/shims:/home/tharyckgusmao/.rbenv/bin:/home/tharyckgusmao/.poetry/bin:/home/tharyckgusmao/.nvm/versions/node/v16.19.1/bin:/home/tharyckgusmao/.cargo/bin:/home/tharyckgusmao/.poetry/bin:/home/tharyckgusmao/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/tharyckgusmao/.dotnet/tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/tharyckgusmao/Documentos/tharyck/Projetos/rust_studies/studies/exercicies/00-npm-utils/js/test/package.json: Unexpected token ' in JSON at position 103
+      at JSON.parse (<anonymous>)
+      at /home/tharyckgusmao/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/tharyckgusmao/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/tharyckgusmao/.nvm/versions/node/v16.19.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "js",
+      "private": true,
+      "workspaces": [
+          "js/*"
+      ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

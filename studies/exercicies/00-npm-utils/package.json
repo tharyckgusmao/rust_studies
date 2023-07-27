@@ -1,0 +1,7 @@
+{
+    "name": "js",
+    "private": true,
+    "workspaces": [
+        "js/*"
+    ]
+}
