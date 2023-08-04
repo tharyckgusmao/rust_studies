@@ -25,7 +25,6 @@ pub fn rollup(input: &String) {
         }
         Err(e) => {
             eprintln!("Application error: {}", e);
-            process::exit(1);
         }
     }
 }
@@ -38,11 +37,9 @@ pub fn publish(input: &String) {
     match output {
         Ok(result) => {
             println!("status: {:?}", String::from_utf8_lossy(&result.stdout));
-            process::exit(1);
         }
         Err(e) => {
             eprintln!("Application error: {}", e);
-            process::exit(1);
         }
     }
 }
@@ -63,7 +60,6 @@ pub fn unpublish(input: &String) {
         }
         Err(e) => {
             eprintln!("Application error: {}", e);
-            process::exit(1);
         }
     }
 }
