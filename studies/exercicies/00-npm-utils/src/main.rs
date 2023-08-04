@@ -18,20 +18,27 @@ enum Commands {
 #[derive(Args)]
 struct Pack {
     module: Option<String>,
+    #[arg(short, long)]
+    find: Option<String>,
 }
 
 fn main() {
     let cli = Cli::parse();
 
     match &cli.command {
-        Some(Commands::Pack(name)) => match name.module {
+        Some(Commands::Pack(command)) => match command.module {
             Some(ref _name) => {
                 let pack = api::commands::pack(_name);
                 println!("{}", pack);
             }
-            None => {
-                println!("Please provide a module to flow pack");
-            }
+            None => match command.find {
+                Some(ref find) => {
+                    api::commands::choose(Some(find));
+                }
+                None => {
+                    api::commands::choose(None);
+                }
+            },
         },
         None => {}
     }
