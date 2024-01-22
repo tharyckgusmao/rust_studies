@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+     "[rust]": {
+        "editor.defaultFormatter": "jinxdash.prettier-rust"
+    },
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml",
+        "./socket/Cargo.toml",
+        "./geofence/Cargo.toml",
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false,
+    "rust-analyzer.checkOnSave": false,
+}
